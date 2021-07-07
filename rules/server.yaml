@@ -1,0 +1,13 @@
+module_name: SandWall
+public_ports: 443,53,80
+unhide_key: AbraKadabra
+hide_key: Shazam
+fake_device_name: usb14
+liberate_in_2_out: True
+whitelist: 
+- machine: 
+   ip: 192.168.10.132
+   open_ports: 22,21
+- machine:
+   ip: 192.168.10.128
+   open_ports: 22,21
